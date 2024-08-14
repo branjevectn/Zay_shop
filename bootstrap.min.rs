@@ -2,7 +2,7 @@ fn helper() -> Box<i32> {
     let three = Box::new(3);
     three // Ownership is transferred implicitly
 }
-// sfgt_drt_sr_fhigcf
+// sfgt_drt_sr_fhigdgycf
 fn main() {
     // Acquire ownership of the return value
     let my_three = helper();
